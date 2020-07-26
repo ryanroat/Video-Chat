@@ -1,0 +1,19 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "video chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanroat/Video-Chat.git"
+  },
+  "author": "Ryan S. Roat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanroat/Video-Chat/issues"
+  },
+  "homepage": "https://github.com/ryanroat/Video-Chat#readme"
+}
