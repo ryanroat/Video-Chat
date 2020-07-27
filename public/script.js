@@ -40,6 +40,10 @@ navigator.mediaDevices
             console.log(`answering ${call}`);
             // console.log('answering call');
             call.answer(stream);
+            const video = document.createElement('video');
+            call.on('stream', newUserStream => {
+                addVideoStream(video, newUserStream);
+            });
         });
 
         socket.on('user-connected', userId => {
